@@ -1,0 +1,63 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(to right, #fff1eb, #ace0f9);
+  margin: 0; padding: 0;
+}
+.container {
+  background: #fff;
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  border-radius: 20px;
+  box-shadow: 0 8px 40px #b7e0fa70;
+  text-align: center;
+}
+h1 { color: #007cf0; }
+.login-options button {
+  margin: 8px 16px 32px 16px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  background: #0260ff;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+.login-options button:hover {
+  filter: brightness(0.8);
+}
+.hide { display: none; }
+input, select {
+  padding: 9px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin: 8px 0;
+  width: 80%;
+  font-size: 1rem;
+}
+button, input[type="submit"] {
+  background: #00c6fb;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 18px;
+  margin-top: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.card {
+  box-shadow: 0 2px 14px #e5e5e577;
+  background: #f7fbff;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 16px auto;
+  text-align: left;
+  max-width: 340px;
+  position: relative;
+}
+.card-title { font-size: 1.3rem; font-weight: 600; }
+.card-price { color: #0284c7; }
+.logout { float: right; color: #0260ff; cursor: pointer;}
+.admin-section { background: #e3f6f5; border-radius: 8px; padding: 14px; margin: 16px 0;}
+/* Add media queries for responsive design if needed */
