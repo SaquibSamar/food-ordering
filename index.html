@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Catering Reservation & Ordering</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Catering Reservation & Ordering</h1>
+    <div class="login-options">
+      <button onclick="showLogin('customer')">Customer Login</button>
+      <button onclick="showLogin('admin')">Admin Login</button>
+    </div>
+    <div id="login-form" class="hide"></div>
+    <div id="app"></div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+  <script src="firebase-init.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
