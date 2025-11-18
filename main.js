@@ -1,12 +1,12 @@
 // Replace with your own Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  databaseURL: "YOUR_DB_URL",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_BUCKET",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAEYJxXopw0pq7bsg1aj-pG69QI4r8BsTU",
+  authDomain: "food-ordering-9c62c.firebaseapp.com",
+  projectId: "food-ordering-9c62c",
+  storageBucket: "food-ordering-9c62c.firebasestorage.app",
+  messagingSenderId: "909817627984",
+  appId: "1:909817627984:web:ed4749ebe19e6c733ad855",
+  measurementId: "G-DFLNWEPWZ4"
 };
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
